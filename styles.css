@@ -1,5 +1,5 @@
 /* Styling for the nav bar*/
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,22 +26,47 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
+h1{
+    text-align: center;
+}
+
 .active {
     background-color: #0031d3;
 }
 
-.div1 {
+.title {
+    margin-top:3.125em;
+}
+
+.total {
     text-align: center;
     border: 1px solid black;
     height: 8.5em;
     width: 15em;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.5625em;
+    font-size: 2em;
     
 }
 
-.div2 {
-    margin-top:3.125em;
+.breakdown {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.loan {
+    border: 1px solid black;
+    font-size: 2em;
     text-align: center;
+    width: 24.8%;
+}
+
+.timeline{
+    text-align: center;
+    border: 1px solid black;
+    border-spacing: 20px;
+    height: 8.5em;
+    font-size: 2em;
 }
