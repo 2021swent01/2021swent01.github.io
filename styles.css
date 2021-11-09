@@ -88,7 +88,7 @@ h1{
     margin-right: auto;
     border: none;
     border-spacing: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:whitesmoke;
@@ -137,7 +137,7 @@ button {
 }
 
 button:hover {
-    border-color: #45a049;
+    border-color: #6B1BC5;
     box-shadow: #333 0px 0px 10px;
 }
 
@@ -161,7 +161,7 @@ table {
 }
 
 .button:hover {
-    border-color: #45a049;
+    border-color: #6B1BC5;
     box-shadow: #333 0px 0px 10px;
 }
 
@@ -187,4 +187,20 @@ input[type="date"] {
     border-radius: 4px;
     min-width: 350px;
     font-size: large;
+}
+
+.logon {
+    background-image: url(assets/bg.jpg);
+    backdrop-filter: blur(30px);
+    margin: 0;
+}
+
+/* Styling for the home page */
+.home {
+    background-image: url(assets/bg.jpg);
+    margin: 0;
+    padding: 30;
+    color: whitesmoke;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
