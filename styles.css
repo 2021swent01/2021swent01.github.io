@@ -14,6 +14,12 @@ li {
     float: left;
 }
 
+body {
+    font-family: 'Segoe UI', Segoe,Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+
 li a {
     display: block;
     color: white;
@@ -69,4 +75,106 @@ h1{
     border-spacing: 20px;
     height: 8.5em;
     font-size: 2em;
+}
+
+/* Styling for the sign in/up pages */
+.container{
+    width: 70%;
+    min-width: 320px;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-spacing: 20px;
+    border-radius: 10px;
+    height: 8.5em;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+    background-color: #181818;
+    box-shadow: #000 0px 0px 40px;
+    padding: 70px 20px 20px 20px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    min-width: 350px;
+    font-size: large;
+}
+
+input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    min-width: 350px;
+    font-size: large;
+}
+
+input {
+    background-color: #252525;
+    color: whitesmoke;
+}
+
+input:hover {
+    background-color: #101010;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    padding: 14px 20px;
+    border: solid 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    border-color: #45a049;
+    box-shadow: #333 0px 0px 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    float: middle;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    padding: 14px 20px;
+    border: solid 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:small;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+    border-color: #45a049;
+    box-shadow: #333 0px 0px 10px;
+}
+
+.outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
 }
