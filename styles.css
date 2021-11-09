@@ -27,6 +27,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin:0;
 }
 
 li a:hover:not(.active) {
@@ -38,7 +39,7 @@ h1{
 }
 
 .active {
-    background-color: #0031d3;
+    background-color: #3f255d91;
 }
 
 .title {
@@ -64,7 +65,7 @@ h1{
 }
 
 .loan {
-    border: 1px solid black;
+    border: none;
     font-size: 2em;
     text-align: center;
     width: 24.8%;
@@ -204,4 +205,20 @@ input[type="date"] {
     color: whitesmoke;
     font-size: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(68, 68, 68);
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: rgb(61, 61, 61);
 }
