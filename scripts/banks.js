@@ -1,0 +1,1 @@
+const banks = ["DCU", "TD Bank", "Bank of America", "Wells Fargo", "Capital One","Citizens Bank"]
