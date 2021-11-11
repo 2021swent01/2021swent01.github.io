@@ -17,7 +17,7 @@ li {
 body {
     font-family: 'Segoe UI', Segoe,Helvetica, sans-serif;
     font-size: 14px;
-    background-color: #1f1f1f;
+    background-color: #383838;
     color: whitesmoke;
 }
 
@@ -212,13 +212,13 @@ input[type="date"] {
 }
 
 ::-webkit-scrollbar-track {
-background: #181818;
+    background: #181818;
 }
 
 ::-webkit-scrollbar-thumb {
-background: rgb(68, 68, 68);
+    background: rgb(68, 68, 68);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: rgb(61, 61, 61);
+    background: rgb(61, 61, 61);
 }
