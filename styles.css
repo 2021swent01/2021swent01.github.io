@@ -47,10 +47,6 @@ h1{
     background-color: #3f255d91;
 }
 
-.title {
-    margin-top:3.125em;
-}
-
 .total {
     text-align: center;
     border: 1px solid black;
@@ -243,6 +239,7 @@ input[type="date"] {
 .title{
     text-align: center;
     margin: 50px;
+    font-size: 3.5em;
 }
 
 .home-container {
