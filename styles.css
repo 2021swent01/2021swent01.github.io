@@ -17,7 +17,8 @@ li {
 body {
     font-family: 'Segoe UI', Segoe,Helvetica, sans-serif;
     font-size: 14px;
-    background-color: #383838;
+    background-image: url(assets/bg.jpg);
+    /*background-color: #383838;*/
     color: whitesmoke;
     position: relative;
     animation-name: smoothie;
@@ -47,17 +48,6 @@ h1{
     background-color: #3f255d91;
 }
 
-.total {
-    text-align: center;
-    border: 1px solid black;
-    height: 8.5em;
-    width: 15em;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 2em;
-    
-}
-
 .breakdown {
     list-style-type: none;
     overflow: hidden;
@@ -65,26 +55,39 @@ h1{
     padding: 0;
 }
 
-.loan {
-    border: none;
+.loan_item{
     font-size: 2em;
     text-align: center;
-    width: 24.8%;
+    padding-left: 4%;
+    width: 20%;
+}
+
+.loan {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    background-color: #181818;
+    border-color: transparent;
 }
 
 .timeline{
     text-align: center;
-    border: 1px solid black;
-    border-spacing: 20px;
     height: 8.5em;
     font-size: 2em;
+    background-color: #181818;
 }
 
-/* Styling for the sign in/up pages */
+.loan_header{
+    text-align: center;
+    padding-top: 2em;
+    font-size: 3.5em;
+}
+
+/* Styling for the text boxes */
 .container{
     width: 70%;
     min-width: 320px;
-    max-width: 500px;
+    max-width: 550px;
     min-height: max-content;
     text-align: center;
     margin-left: auto;
@@ -97,7 +100,7 @@ h1{
     color:whitesmoke;
     background-color: #181818;
     box-shadow: #000 0px 0px 40px;
-    padding: 70px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 input[type=text] {
