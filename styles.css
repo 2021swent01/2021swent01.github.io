@@ -222,3 +222,33 @@ input[type="date"] {
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(61, 61, 61);
 }
+
+.scholarship{
+    height:200px;
+    width:300px;
+    border:2px solid red
+}
+
+.addsearch{
+    height:300px;
+    width:500px;
+    border:2px solid blue
+}
+
+.newsupdates{
+    height:300px;
+    width:500px;
+    border:2px solid blueviolet
+}
+
+.milestone{
+    height:300px;
+    width:500px;
+    border:2px solid red
+}
+
+.leaderboard{
+    height:300px;
+    width:500px;
+    border:2px solid green
+}
