@@ -55,13 +55,6 @@ h1{
     padding: 0;
 }
 
-.loan_item{
-    font-size: 2em;
-    text-align: center;
-    padding-left: 4%;
-    width: 20%;
-}
-
 .loan {
     font-size: 2em;
     text-align: center;
@@ -344,16 +337,15 @@ input[type="date"] {
 }
 
 .loan_item{
-    background-color: #252525;
+    background-color: #181818;
     color: whitesmoke;
-    border-radius: 20px;
     box-shadow: #000 0px 0px 40px;
     margin:20px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-width: 350px;
-    min-height: 200px;
     width: auto;
+    height: max-content;
     padding: 0px;
 }
 
