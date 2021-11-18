@@ -293,7 +293,7 @@ input[type="date"] {
 
 .timeline{
     width: 90%;
-    min-width: 320px;
+    min-width: 350px;
     min-height: max-content;
     text-align: center;
     margin-left: auto;
@@ -308,7 +308,7 @@ input[type="date"] {
     color:whitesmoke;
     background-color: #181818;
     box-shadow: #000 0px 0px 40px;
-    padding: 20px;
+    padding: 70px 20px 50px 20px;
     height: max-content;
 }
 
