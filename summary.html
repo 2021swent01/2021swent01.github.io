@@ -3,14 +3,15 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <!-- Nav Bar -->
-    <ul class=navbar>
-        <li><a class=active href="summary.html">Summary</a></li>
-        <li><a href="banks.html">Banks</a></li>
-        <li><a href="account_info.html">Account Info</a></li>
-        <li><a href="scholarships.html">Scholarship News</a></li>
-        <li><a href="milestones.html">Milestones</a></li>
-        <li style="float:right"><a href="index.html">Sign Out</a></li>
-    </ul>
+    <body>
+        <ul class=navbar>
+            <li><a class=active href="summary.html">Summary</a></li>
+            <li><a href="banks.html">Banks</a></li>
+            <li><a href="account_info.html">Account Info</a></li>
+            <li><a href="scholarships.html">Scholarship News</a></li>
+            <li><a href="milestones.html">Milestones</a></li>
+            <li style="float:right"><a href="index.html">Sign Out</a></li>
+        </ul>
     <div class=title>
         <h1>Summary Page</h1>
     </div>
@@ -25,8 +26,40 @@
         <li class=loan_item><button type="button" class=loan onclick='location.href="loan3.html";'><p>Parent Plus</p><p>$8,679</p></button></li>
         <li class=loan_item><button type="button" class=loan onclick='location.href="loan4.html";'><p>Private</p><p>$2,734</p></button></li>
     </ul>
-    <p></p>
-    <div class=timeline>
-        <h1>Timeline</h1>
+    <div class="timeline">
+        <h2>Timeline</h2>
+        <div class="timeline_item">
+            <div class="timeline_item_content">
+                <h2 class="timeline_datestamp">
+                    October 12, 2021 | recipient
+                </h2>
+                Loan 3 Paid | $10,773 | 100%
+                
+            </div>
+        </div>
+        <div class="timeline_item">
+            <div class="timeline_item_content">
+                <h2 class="timeline_datestamp">
+                    April 5, 2021 | recipient
+                </h2>
+                Loan 3 Progress | $7,781 | 25%
+            </div>
+        </div>
+        <div class="timeline_item">
+            <div class="timeline_item_content">
+                <h2 class="timeline_datestamp">
+                    January 21, 2021 | Main Account
+                </h2>
+                Loan 1 Paid | $8,679 | 100%
+            </div>
+        </div>
+        <div class="timeline_item">
+            <div class="timeline_item_content">
+                <h2 class="timeline_datestamp">
+                    December 19, 2020 | Main Account
+                </h2>
+                Loan 1 Progress | $2,734 | 25%
+            </div>
     </div>
+</body>
 </html>
