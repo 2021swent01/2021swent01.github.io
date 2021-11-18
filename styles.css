@@ -351,8 +351,9 @@ input[type="date"] {
     margin:20px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    min-width: 200px;
+    min-width: 350px;
     min-height: 200px;
+    width: auto;
     padding: 0px;
 }
 
