@@ -367,28 +367,11 @@ input[type="date"] {
     padding: 20px 20px 20px 20px;
 }
 
-.scholarship{
-    height:200px;
-    width:300px;
-    border:2px solid red
+.current_scholarship{
+    text-align: center;
 }
-
-.addsearch{
-    height:300px;
-    width:500px;
-    border:2px solid blue
-}
-
-.newsupdates{
-    height:300px;
-    width:500px;
-    border:2px solid blueviolet
-}
-
-.milestone{
-    height:300px;
-    width:500px;
-    border:2px solid red
+.scholarship_search{
+    text-align: center;
 }
 
 .leaderboard{
@@ -406,4 +389,8 @@ input[type="date"] {
     margin-right: auto;
     margin-bottom: 20px;
     padding: 5px;
+}
+
+.news{
+    text-align: center;
 }
