@@ -7,8 +7,8 @@ The landing page sets out the problem we wanted to solve, our solution, and the 
 The sign up page contains fields for a username, password, name, email, and date of birth. Due to the fact that this project's requirements was static HTML pages, this page does not actullay create a new user, however clicking the "Create Account and Login" button will redirect you to the logged in portions of the webpage
 
 ### Sign In
-The sign in page presents fields for a username and password. The fields do check for a correct username and password and if an invalid username or password is provided will present the user with an error message pop up. The working login is:
-username: admin
+The sign in page presents fields for a username and password. The fields do check for a correct username and password and if an invalid username or password is provided will present the user with an error message pop up. The working login is:  
+username: admin  
 password: pass
 
 ### Navbar
